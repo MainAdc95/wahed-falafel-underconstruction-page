@@ -10,9 +10,9 @@ import {
 } from "@react-three/postprocessing";
 import "../materials/layerMaterial";
 
-const imgUrl =
-  "https://d1agtdz10mk5tb.cloudfront.net/wahed-falafel/public/underconstruction-files/";
-// const imgUrl = "/";
+// const imgUrl =
+//   "https://d1agtdz10mk5tb.cloudfront.net/wahed-falafel/public/underconstruction-files/";
+const imgUrl = "https://wahedfalafel.ae/";
 
 function Scene({ dof }) {
   const scaleN = useAspect(1600, 1000, 1.05);
